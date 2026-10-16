@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+.media-venv/
+
+# Generated exports and local agent settings
+dist-native/
+.claude/
+.env
+.env.*

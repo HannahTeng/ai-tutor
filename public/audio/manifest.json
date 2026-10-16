@@ -1,0 +1,76 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
+  "pitch": "+6Hz",
+  "runtime": "prerendered; no model calls",
+  "files": [
+    {
+      "file": "lesson-01-01.mp3",
+      "seconds": 25.584
+    },
+    {
+      "file": "lesson-01-02.mp3",
+      "seconds": 36.912
+    },
+    {
+      "file": "lesson-01-03.mp3",
+      "seconds": 7.248
+    },
+    {
+      "file": "lesson-01-04.mp3",
+      "seconds": 38.88
+    },
+    {
+      "file": "lesson-01-05.mp3",
+      "seconds": 35.784
+    },
+    {
+      "file": "lesson-01-06.mp3",
+      "seconds": 7.248
+    },
+    {
+      "file": "lesson-01-07.mp3",
+      "seconds": 7.248
+    },
+    {
+      "file": "lesson-01-08.mp3",
+      "seconds": 18.528
+    },
+    {
+      "file": "lesson-01-09.mp3",
+      "seconds": 27.168
+    },
+    {
+      "file": "lesson-01-10.mp3",
+      "seconds": 22.464
+    },
+    {
+      "file": "lesson-01-11.mp3",
+      "seconds": 30.384
+    },
+    {
+      "file": "lesson-01-12.mp3",
+      "seconds": 35.232
+    },
+    {
+      "file": "lesson-01-13.mp3",
+      "seconds": 30.864
+    },
+    {
+      "file": "lesson-01-14.mp3",
+      "seconds": 16.2
+    },
+    {
+      "file": "lesson-01-15.mp3",
+      "seconds": 22.344
+    },
+    {
+      "file": "lesson-01-16.mp3",
+      "seconds": 27.264
+    },
+    {
+      "file": "lesson-01-17.mp3",
+      "seconds": 32.64
+    }
+  ]
+}

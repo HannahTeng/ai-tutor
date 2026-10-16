@@ -1,25 +1,41 @@
 {
   "expo": {
-    "name": "turing-app",
-    "slug": "turing-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "name": "图灵AI学伴",
+    "slug": "turing-ai-companion",
+    "version": "0.1.0",
+    "orientation": "default",
+    "icon": "./assets/course/turing.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/course/turing.png",
+        "backgroundColor": "#FAF8F2"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/course/turing.png",
+      "bundler": "metro",
+      "output": "single",
+      "name": "图灵AI学伴"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "选择一张作品图片，作品仅保存在当前设备。",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
